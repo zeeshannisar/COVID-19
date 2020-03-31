@@ -44,10 +44,18 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
 #### VGG-16:
 
 #### VGG-19:
-<table><tr>
-<td> <img src="https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Accuracy/VGG19-Accuracy-Graph.png" alt="Drawing" style="width: 250px;"/> </td>
-<td> <img src="https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Loss/VGG19-loss-Graph.png" alt="Drawing" style="width: 250px;"/> </td>
-</tr></table>
+<table>
+  <tr>
+    <td> 
+      <img src="https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Accuracy/VGG19-Accuracy-Graph.png"
+           alt="Drawing" style="width: 250px;"/>
+    </td>
+    <td> 
+      <img src="https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Loss/VGG19-loss-Graph.png" alt="Drawing"
+           style="width: 250px;"/>
+    </td>
+  </tr>
+</table>
 
 
 
