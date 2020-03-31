@@ -17,17 +17,16 @@ The Corona Virus Disease 2019 (COVID-19) pandemic continues to have an upsetting
 #### Dataset 01:
 This dataset is the first version introduced by the authors of the [[Paper]](https://arxiv.org/abs/2003.09871). I have write a python script to categorize each X-ray image to a separate Class as below.
 
-\begin{table}[]
-\centering
-\caption{My caption}
-\label{my-label}
-\begin{tabular}{|l|l|l|}
-\hline
-\textbf{Animals} & \textbf{Sports}  & \textbf{Fruits} \\ \hline
-Cat     & Soccer     & Apple  \\ \hline
-Dog     & Basketball & Orange \\ \hline
-\end{tabular}
-\end{table}
+# Race results
+
+Here are the results from this week's race:
+
+ | Number | Rider        | Time
+ | 1      | Bullet Bob   | 56:07
+ | 2      | Clumsy Colin | DNF 
+ | 3      | Swift Susan  | 55:13
+
+Congratulations to all who took part and I look forward to seeing you all at the next one!
 
 
 This dataset can be accessed at [Here]()
