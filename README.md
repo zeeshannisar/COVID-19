@@ -27,12 +27,42 @@ The Corona Virus Disease 2019 (COVID-19) pandemic continues to have an upsetting
 
 I have split the original data to train/test folders with following distrubtuions. This categorized dataset can be downloaded at [Here](https://drive.google.com/drive/folders/1wHtxo0O0uZMZ-A71pK1PVRnC3hOvIF14?usp=sharing). I have also write a python [Script](https://github.com/zeeshannisar/COVID-19/blob/master/datasets/Read%20Dataset%20and%20Make%20Numpy%20Files.ipynb) to make the NumpyFiles for the train/test images but without any normalization so that one can normalize the data as per his/her need. These NumpyFiles can also be accessed at [Here](https://drive.google.com/drive/folders/1zpwOSHDtdSuGFHB9MosBK6EdyPfQp2Hv?usp=sharing).
 
-| Category    | train | test |
-| --------    | ----- | ---- |
-| 0: Normal   | 1349  | 234  |
-| 1: Bacteria | 2540  | 246  |
-| 2: Viral    | 1355  | 149  |
-| 3: COVID-19 | 66    | 10   |
+<table align="center">
+  
+  <tr>
+    <td> <b>Category</b> </td>
+    <td> <b>train</b> </td>
+    <td> <b>test</b> </td>
+  </tr>
+  
+  <tr>
+    <td> 0: Normal </td>
+    <td> 1349 </td>
+    <td> 234 </td>
+  </tr>
+  
+  <tr>
+    <td> 1: Bacteria </td>
+    <td> 2540 </td>
+    <td> 246 </td>
+  </tr>
+  
+  <tr>
+    <td> 2: Viral </td>
+    <td> 1355 </td>
+    <td> 149 </td>
+  </tr>
+  
+  
+  <tr>
+    <td> 3: COVID-19 </td>
+    <td> 66 </td>
+    <td> 10 </td>
+  </tr>
+
+</table>
+
+
 
 #### Dataset 02: 
 [In Process and will be shared soon]()
@@ -44,7 +74,7 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
 #### VGG-16:
 
 #### VGG-19:
-<table>
+<table align="center">
   <tr>
     <td> 
       <img src="https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Accuracy/VGG19-Accuracy-Graph.png"
