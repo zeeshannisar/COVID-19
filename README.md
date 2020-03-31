@@ -17,16 +17,12 @@ The Corona Virus Disease 2019 (COVID-19) pandemic continues to have an upsetting
 #### Dataset 01:
 This dataset is the first version introduced by the authors of the [[Paper]](https://arxiv.org/abs/2003.09871). I have write a python script to categorize each X-ray image to a separate Class as below.
 
-# Race results
-
-Here are the results from this week's race:
-
- | Number | Rider        | Time
- | 1      | Bullet Bob   | 56:07
- | 2      | Clumsy Colin | DNF 
- | 3      | Swift Susan  | 55:13
-
-Congratulations to all who took part and I look forward to seeing you all at the next one!
+| Category    | Number of Patients | Number of Images |
+| --------    | ------------------ | ---------------- |
+| 0: Normal   | 1203               | 1583             |
+| 1: Bacteria | 931                | 2786             |
+| 2: Viral    | 660                | 1504             |
+| 3: COVID-19 | 45                 | 76               |
 
 
 This dataset can be accessed at [Here]()
