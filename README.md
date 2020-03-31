@@ -20,9 +20,9 @@ The Corona Virus Disease 2019 (COVID-19) pandemic continues to have an upsetting
 
 <table>
   <tr>
-    <td style="text-align:center"> <b>Category</b> </td>
-    <td style="text-align:center"> <b>Number of Patients</b> </td>
-    <td style="text-align:center"> <b>Number of X-rays</b> </td>
+    <th style="text-align:center"> Category </th>
+    <th style="text-align:center"> Number of Patients </th>
+    <th style="text-align:center"> Number of X-rays </th>
   </tr>
   <tr>
     <td style="text-align:center"> 0: Normal </td>
@@ -50,38 +50,31 @@ The Corona Virus Disease 2019 (COVID-19) pandemic continues to have an upsetting
 I have split the original data to train/test folders with following distrubtuions. This categorized dataset can be downloaded at [Here](https://drive.google.com/drive/folders/1wHtxo0O0uZMZ-A71pK1PVRnC3hOvIF14?usp=sharing). I have also write a python [Script](https://github.com/zeeshannisar/COVID-19/blob/master/datasets/Read%20Dataset%20and%20Make%20Numpy%20Files.ipynb) to make the NumpyFiles for the train/test images but without any normalization so that one can normalize the data as per his/her need. These NumpyFiles can also be accessed at [Here](https://drive.google.com/drive/folders/1zpwOSHDtdSuGFHB9MosBK6EdyPfQp2Hv?usp=sharing).
 
 <table align="center">
-  
   <tr>
-    <td style="text-align:center"> <b>Category</b> </td>
-    <td style="text-align:center"> <b>train</b> </td>
-    <td style="text-align:center"> <b>test</b> </td>
+    <th style="text-align:center"> Category </th>
+    <th style="text-align:center"> train </th>
+    <th style="text-align:center"> test </th>
   </tr>
-  
   <tr>
     <td style="text-align:center"> 0: Normal </td>
     <td style="text-align:center"> 1349 </td>
     <td style="text-align:center"> 234 </td>
   </tr>
-  
   <tr>
     <td style="text-align:center"> 1: Bacteria </td>
     <td style="text-align:center"> 2540 </td>
     <td style="text-align:center"> 246 </td>
   </tr>
-  
   <tr>
     <td style="text-align:center"> 2: Viral </td>
     <td style="text-align:center"> 1355 </td>
     <td style="text-align:center"> 149 </td>
   </tr>
-  
-  
   <tr>
     <td style="text-align:center"> 3: COVID-19 </td>
     <td style="text-align:center"> 66 </td>
     <td style="text-align:center"> 10 </td>
   </tr>
-
 </table>
 
 
