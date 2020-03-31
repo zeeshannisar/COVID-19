@@ -17,7 +17,6 @@ The Corona Virus Disease 2019 (COVID-19) pandemic continues to have an upsetting
 ### Dataset Description:
 #### Dataset 01:
 [Dataset 01](https://drive.google.com/drive/folders/1wHtxo0O0uZMZ-A71pK1PVRnC3hOvIF14?usp=sharing) is the first version introduced by the authors of the [[Paper]](https://arxiv.org/abs/2003.09871). This dataset is comprised of a total of 5949 posetrior chest radiography images across 2839 patients. I have write a python script to categorize each X-ray image in the raw data folder to a separate Class as per corresponding label. The original data distribution was
-
 <table>
   <tr>
     <th style="text-align:center"> Category </th>
