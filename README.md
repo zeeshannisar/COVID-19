@@ -6,13 +6,14 @@ The Corona Virus Disease 2019 (COVID-19) pandemic continues to have an upsetting
     + [Dataset 01](#dataset-01)
     + [Dataset 02](#dataset-02)
   + [Pretrained Networks for COVID-19 Detection](#pretrained-networks-for-covid-19-detection)
-    + [VGG19]
-    + [AlexNet]
-    + [Inception V3]
-    + [ResNet-18]
-    + [DenseNet-121]
-    + [Google-Net]
-  + [Visualization of Infectious Regions]
+    + [VGG-16](#vgg-16)
+    + [VGG-19](#vgg-19)
+    + [Alex-Net](#alex-net)
+    + [Inception-V3](#inception-v3)
+    + [ResNet-18](#resnet-18)
+    + [DenseNet-121](#densenet-121)
+    + [Google-Net](#google-net)
+  + [Visualization of Infectious Regions](#visualization-of-infectious-regions)
   
 ### Dataset Description:
 #### Dataset 01:
@@ -88,6 +89,12 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
 #### VGG-16:
 
 #### VGG-19:
+
+##### Implementation:
+[Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/Vgg19-Transfer%20Learning-COVID19.ipynb)
+
+
+##### Results:
 <center>
 
 |![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Accuracy/VGG19-Accuracy-Graph.png "Accuracy") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Loss/VGG19-loss-Graph.png "Loss") |
@@ -96,5 +103,6 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
 
 </center>
 
-
-
+<p align="center">
+    <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/VGG19-cm.png">
+</p>
