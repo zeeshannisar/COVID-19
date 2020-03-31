@@ -24,7 +24,7 @@ The Corona Virus Disease 2019 (COVID-19) pandemic continues to have an upsetting
 | 2: Viral    | 660                | 1504             |
 | 3: COVID-19 | 45                 | 76               |
 
-I have split the original data to train/test folders with following distrubtuions. This categorized dataset can be downloaded at [Here](). I have also write a python [Script]() to make the NumpyFiles for the train/test images but without any normalization so that one can normalize the data as per his/her need. These NumpyFiles can also be accessed at [Here]().
+I have split the original data to train/test folders with following distrubtuions. This categorized dataset can be downloaded at [Here](https://drive.google.com/drive/folders/1wHtxo0O0uZMZ-A71pK1PVRnC3hOvIF14?usp=sharing). I have also write a python [Script]() to make the NumpyFiles for the train/test images but without any normalization so that one can normalize the data as per his/her need. These NumpyFiles can also be accessed at [Here](https://drive.google.com/drive/folders/1zpwOSHDtdSuGFHB9MosBK6EdyPfQp2Hv?usp=sharing).
 
 | Category    | train | test |
 | --------    | ----- | ---- |
