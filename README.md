@@ -15,7 +15,7 @@ The Corona Virus Disease 2019 (COVID-19) pandemic continues to have an upsetting
   
 ### Dataset Description:
 #### Dataset 01:
-This dataset is the first version introduced by the authors of the [[Paper]](https://arxiv.org/abs/2003.09871). I have write a python script to categorize each X-ray image to a separate Class as below.
+[Dataset 01]() is the first version introduced by the authors of the [[Paper]](https://arxiv.org/abs/2003.09871). This dataset is comprised of a total of 5949 posetrior chest radiography images across 2839 patients. I have write a python script to categorize each X-ray image in the raw data folder to a separate Class as per corresponding label. The original data distribution was
 
 | Category    | Number of Patients | Number of Images |
 | --------    | ------------------ | ---------------- |
@@ -24,5 +24,13 @@ This dataset is the first version introduced by the authors of the [[Paper]](htt
 | 2: Viral    | 660                | 1504             |
 | 3: COVID-19 | 45                 | 76               |
 
+I have split the original data to train/test folders with following distrubtuions. This categorized dataset can be downloaded at [Here](). I have also write a python [Script]() to make the NumpyFiles for the train/test images but without any normalization so that one can normalize the data as per his/her need. These NumpyFiles can also be accessed at [Here]().
 
-This dataset can be accessed at [Here]()
+| Category    | train | test |
+| --------    | ----- | ---- |
+| 0: Normal   | 1349  | 234  |
+| 1: Bacteria | 2540  | 246  |
+| 2: Viral    | 1355  | 149  |
+| 3: COVID-19 | 66    | 10   |
+
+
