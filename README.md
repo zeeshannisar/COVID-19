@@ -87,6 +87,21 @@ I have split the original data to train/test folders with following distrubtuion
 The core idea behind the Pretrained Networks and Transfer Learning can be studied in detail at my another GitHubRepository at [Here](https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks). I have used the following Pretrained Networks for COVID-19 Detection. Each Pretrained Network is also described with its train/test History and a Confusion-Matrix for better visualization of the Generalization of the Trained Network.
 
 #### VGG-16:
+[Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/Vgg16-Transfer%20Learning-COVID19.ipynb)
+
+
+##### Results:
+<center>
+
+|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Accuracy/VGG16-Accuracy-Graph.png "Accuracy") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Loss/VGG16-loss-Graph.png "Loss") |
+|:---:|:---:|
+| Pretrained-VGG16 Accuracy-Graph | Pretrained-VGG16 Loss-Graph |
+
+</center>
+
+<p align="center">
+    <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/VGG16-cm.png", width=50%, height=50%>
+</p>
 
 #### VGG-19:
 
@@ -104,7 +119,7 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
 </center>
 
 <p align="center">
-    <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/VGG19-cm.png">
+    <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/VGG19-cm.png", width=50%, height=50%>
 </p>
 
 #### Alex-Net:
