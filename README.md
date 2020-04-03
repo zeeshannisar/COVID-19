@@ -99,17 +99,3 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
     <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/DenseNet121-visualization-0.png", width=55%, height=55%>
 </p>
 
-#### Alex-Net:
-[In Process and will be shared soon]()
-
-#### Inception-V3:
-[In Process and will be shared soon]()
-
-#### ResNet-18:
-[In Process and will be shared soon]()
-
-#### Google-Net:
-[In Process and will be shared soon]()
-
-### Visualization of Infectious Regions:
-[In Process and will be shared soon]()
