@@ -45,7 +45,7 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
 [Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/Vgg16-Transfer%20Learning-COVID19.ipynb)
 
 
-##### Results:
+##### Statistical Results:
 
 |![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Accuracy/VGG16-Accuracy-Graph.png "Accuracy") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Loss/VGG16-loss-Graph.png "Loss") |
 |:---:|:---:|
@@ -56,6 +56,11 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
 |:---:|:---:|
 | Pretrained-VGG16 Confusion Matrix | Pretrained-VGG16 ROC |
 
+##### Visualization:
+<p align="center">
+    <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/VGG16-visualization.png">
+</p>
+
 
 #### VGG-19:
 
@@ -63,7 +68,7 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
 [Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/Vgg19-Transfer%20Learning-COVID19.ipynb)
 
 
-##### Results:
+##### Statistical Results:
 
 |![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Accuracy/VGG19-Accuracy-Graph.png "Accuracy") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Loss/VGG19-loss-Graph.png "Loss") |
 |:---:|:---:|
@@ -74,26 +79,37 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
 |:---:|:---:|
 | Pretrained-VGG19 Confusion Matrix | Pretrained-VGG19 ROC |
 
+##### Visualization:
+<p align="center">
+    <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/VGG19-visualization.png">
+</p>
+
 
 #### DenseNet-121:
 [Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/DenseNet121-Transfer%20Learning-COVID19.ipynb)
 
 
-##### Results:
+##### Statistical Results:
 
 |![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Accuracy/DenseNet121-Accuracy-Graph.png "Accuracy") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Loss/DenseNet121-loss-Graph.png "Loss") |
 |:---:|:---:|
 | Pretrained-DenseNet121 Accuracy-Graph | Pretrained-DenseNet121 Loss-Graph |
 
-
 |![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/DenseNet121-cm.png "Confusion Matrix") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/DenseNet121-roc.png "ROC Curve") |
 |:---:|:---:|
 | Pretrained-DenseNet121 Confusion Matrix | Pretrained-DenseNet121 ROC |
 
+##### Visualization:
+<p align="center">
+    <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/DenseNet121-visualization-0.png">
+</p>
+
 #### Alex-Net:
 [In Process and will be shared soon]()
+
 #### Inception-V3:
 [In Process and will be shared soon]()
+
 #### ResNet-18:
 [In Process and will be shared soon]()
 
