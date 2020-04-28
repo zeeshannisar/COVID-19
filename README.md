@@ -31,7 +31,7 @@ I have split the original data to train/test folders with following distrubtuion
 | 3: COVID-19 | 66    | 10   |
 
 #### Dataset 02: 
-[Dataset 02](https://drive.google.com/drive/folders/1NLjyns6qJcQE8zZ8OZ-xfNMatcLLnMJO?usp=sharing) is the second version introduced by the authors of the [[Paper]](https://arxiv.org/abs/2003.09871). One can follow the steps given [Here](https://github.com/lindawangg/COVID-Net/blob/master/docs/COVIDx.md)to generate this dataset. The NumpyFiles for this data can also be accessed at [Here](https://drive.google.com/drive/folders/1NLjyns6qJcQE8zZ8OZ-xfNMatcLLnMJO?usp=sharing). The distribution of these Numpy files are as followed.
+[Dataset 02](https://drive.google.com/drive/folders/1NLjyns6qJcQE8zZ8OZ-xfNMatcLLnMJO?usp=sharing) is the second version introduced by the authors of the [[Paper]](https://arxiv.org/abs/2003.09871). One can follow the steps given [Here](https://github.com/lindawangg/COVID-Net/blob/master/docs/COVIDx.md) to generate this dataset. The NumpyFiles for this data can also be accessed at [Here](https://drive.google.com/drive/folders/1NLjyns6qJcQE8zZ8OZ-xfNMatcLLnMJO?usp=sharing). The distribution of these Numpy files are as followed.
 
 | Category    | Train | Test |
 | ----------  | ----- | ---- |
