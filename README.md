@@ -31,7 +31,13 @@ I have split the original data to train/test folders with following distrubtuion
 | 3: COVID-19 | 66    | 10   |
 
 #### Dataset 02: 
-[In Process and will be shared soon]()
+[Dataset 02](https://drive.google.com/drive/folders/1NLjyns6qJcQE8zZ8OZ-xfNMatcLLnMJO?usp=sharing) is the second version introduced by the authors of the [[Paper]](https://arxiv.org/abs/2003.09871). One can follow the steps given [Here](https://github.com/lindawangg/COVID-Net/blob/master/docs/COVIDx.md) to generate this dataset. The NumpyFiles for this data can also be accessed at [Here]((https://drive.google.com/drive/folders/1NLjyns6qJcQE8zZ8OZ-xfNMatcLLnMJO?usp=sharing). The distribution of these Numpy files are as followed.
+
+| Category    | Train | Test |
+| ----------  | ----- | ---- |
+| 0: Normal   | 8751  | 100  |
+| 1: Pneumonia | 5936  | 100  |
+| 2: COVID-19 | 92    | 10   |
 
 ### Pretrained Networks for COVID-19 Detection:
 The core idea behind the Pretrained Networks and Transfer Learning can be studied in detail at my another GitHubRepository at [Here](https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks). I have used the following Pretrained Networks for COVID-19 Detection. Each Pretrained Network is also described with its train/test History and a Confusion-Matrix for better visualization of the Generalization of the Trained Network.
