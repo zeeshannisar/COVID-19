@@ -43,65 +43,65 @@ I have split the original data to train/test folders with following distrubtuion
 The core idea behind the Pretrained Networks and Transfer Learning can be studied in detail at my another GitHubRepository at [Here](https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks). I have used the following Pretrained Networks for COVID-19 Detection. Each Pretrained Network is also described with its train/test History and a Confusion-Matrix for better visualization of the Generalization of the Trained Network.
 
 #### VGG-16:
-[Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/Vgg16-Transfer%20Learning-COVID19.ipynb)
+[Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/Implementations/dataset%2001/Vgg16-Transfer%20Learning-COVID19-dataset%2001.ipynb)
 
 
 ##### Statistical Results:
 
-|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Accuracy/VGG16-Accuracy-Graph.png "Accuracy") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Loss/VGG16-loss-Graph.png "Loss") |
+|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/dataset%2001/Accuracy/VGG16-Accuracy-Graph.png "Accuracy") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/dataset%2001/Loss/VGG16-loss-Graph.png "Loss") |
 |:---:|:---:|
 | Pretrained-VGG16 Accuracy-Graph | Pretrained-VGG16 Loss-Graph |
 
 
-|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/VGG16-cm.png "Confusion Matrix") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/VGG16-roc.png "ROC Curve") |
+|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2001/VGG16-cm.png "Confusion Matrix") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2001/VGG16-roc.png "ROC Curve") |
 |:---:|:---:|
 | Pretrained-VGG16 Confusion Matrix | Pretrained-VGG16 ROC |
 
 ##### Visualization:
 <p align="center">
-    <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/VGG16-visualization.png", width=55%, height=55%>
+    <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2001/VGG16-visualization.png", width=55%, height=55%>
 </p>
 
 
 #### VGG-19:
 
 ##### Implementation:
-[Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/Vgg19-Transfer%20Learning-COVID19.ipynb)
+[Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/Implementations/dataset%2001/Vgg19-Transfer%20Learning-COVID19-dataset%2001.ipynb)
 
 
 ##### Statistical Results:
 
-|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Accuracy/VGG19-Accuracy-Graph.png "Accuracy") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Loss/VGG19-loss-Graph.png "Loss") |
+|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/dataset%2001/Accuracy/VGG19-Accuracy-Graph.png "Accuracy") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/dataset%2001/Loss/VGG19-loss-Graph.png "Loss") |
 |:---:|:---:|
 | Pretrained-VGG19 Accuracy-Graph | Pretrained-VGG19 Loss-Graph |
 
 
-|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/VGG19-cm.png "Confusion Matrix") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/VGG19-roc.png "ROC Curve") |
+|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2001/VGG19-cm.png "Confusion Matrix") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2001/VGG19-roc.png "ROC Curve") |
 |:---:|:---:|
 | Pretrained-VGG19 Confusion Matrix | Pretrained-VGG19 ROC |
 
 ##### Visualization:
 <p align="center">
-    <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/VGG19-visualization.png", width=55%, height=55%>
+    <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2001/VGG19-visualization.png", width=55%, height=55%>
 </p>
 
 
 #### DenseNet-121:
-[Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/DenseNet121-Transfer%20Learning-COVID19.ipynb)
+[Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/Implementations/dataset%2001/DenseNet121-Transfer%20Learning-COVID19-dataset%2001.ipynb)
 
 
 ##### Statistical Results:
 
-|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Accuracy/DenseNet121-Accuracy-Graph.png "Accuracy") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/Loss/DenseNet121-loss-Graph.png "Loss") |
+|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/dataset%2001/Accuracy/DenseNet121-Accuracy-Graph.png "Accuracy") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/dataset%2001/Loss/DenseNet121-loss-Graph.png "Loss") |
 |:---:|:---:|
 | Pretrained-DenseNet121 Accuracy-Graph | Pretrained-DenseNet121 Loss-Graph |
 
-|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/DenseNet121-cm.png "Confusion Matrix") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/DenseNet121-roc.png "ROC Curve") |
+|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2001/DenseNet121-cm.png "Confusion Matrix") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2001/DenseNet121-roc.png "ROC Curve") |
 |:---:|:---:|
 | Pretrained-DenseNet121 Confusion Matrix | Pretrained-DenseNet121 ROC |
 
 ##### Visualization:
 <p align="center">
-    <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/DenseNet121-visualization-0.png", width=55%, height=55%>
+    <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2001/DenseNet121-visualization-0.png", width=55%, height=55%>
 </p>
 
