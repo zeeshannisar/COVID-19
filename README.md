@@ -2,13 +2,21 @@
 The Corona Virus Disease 2019 (COVID-19) pandemic continues to have an upsetting effect on the health and well-being of the global population. A critical step in the fight against COVID-19 is effective screening of infected patients, with one of the key screening approaches being radiological imaging using chest radiography. It was found in early studies that patients present abnormalities in chest radiography images that are characteristic of those infected with COVID-19 as discussed in a recent [[Paper]](https://arxiv.org/abs/2003.09871). Therefore, in this Repository I have tested different Pretrained Networks for the detection of COVID-19 cases from chest radiography images that is open source and available to the general public. **Finally a Novel Method will be introduced to get the maximum of Positive Predicted Values from these Pretrained Networks.**
 
 ## Table of Contents
+  
   + [Datset Description](#dataset-description)
     + [Dataset 01](#dataset-01)
     + [Dataset 02](#dataset-02)
-  + [Pretrained Networks for COVID-19 Detection and Visualization of Infectious Regions](#pretrained-networks-for-covid-19-detection)
+  
+  + [Pretrained Networks for COVID-19 Detection and Visualization of Infectious Regions for Dataset 01](#pretrained-networks-for-covid-19-detection-for-dataset-01)
     + [VGG-16](#vgg-16)
     + [VGG-19](#vgg-19)
     + [DenseNet-121](#densenet-121)
+  
+  
+  + [Pretrained Networks for COVID-19 Detection and Visualization of Infectious Regions for Dataset 02](#pretrained-networks-for-covid-19-detection-for-dataset-02)
+    + [MobileNet-V2](#mobilenet-v2)
+    + [DenseNet-169](#densenet-169)
+    
     
 ### Dataset Description:
 #### Dataset 01:
@@ -39,7 +47,7 @@ I have split the original data to train/test folders with following distrubtuion
 | 1: Pneumonia | 5945  | 100  |
 | 2: COVID-19 | 229    | 31   |
 
-### Pretrained Networks for COVID-19 Detection:
+### Pretrained Networks for COVID-19 Detection for Dataset 01:
 The core idea behind the Pretrained Networks and Transfer Learning can be studied in detail at my another GitHubRepository at [Here](https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks). I have used the following Pretrained Networks for COVID-19 Detection. Each Pretrained Network is also described with its train/test History and a Confusion-Matrix for better visualization of the Generalization of the Trained Network.
 
 #### VGG-16:
@@ -105,3 +113,4 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
     <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2001/DenseNet121-visualization-0.png", width=55%, height=55%>
 </p>
 
+### Pretrained Networks for COVID-19 Detection for Dataset 02:
