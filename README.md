@@ -142,12 +142,12 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
 
 |![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/dataset02/Accuracy/DenseNet169-Accuracy-Graph.png "Accuracy") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/dataset02/Loss/Pretrained-DenseNet169-loss-Graph.png "Loss") |
 |:---:|:---:|
-| Pretrained-MobileNetV2 Accuracy-Graph | Pretrained-MobileNetV2 Loss-Graph |
+| Pretrained-DenseNet169 Accuracy-Graph | Pretrained-DenseNet169 Loss-Graph |
 
 
 |![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2002/denseNet169-cm.png "Confusion Matrix") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2002/denseNet169-roc.png "ROC Curve") |
 |:---:|:---:|
-| Pretrained-MobileNetV2 Confusion Matrix | Pretrained-MobileNetV2 ROC |
+| Pretrained-DenseNet169 Confusion Matrix | Pretrained-DenseNet169 ROC |
 
 ##### Visualization:
 <p align="center">
