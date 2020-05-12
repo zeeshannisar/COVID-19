@@ -36,8 +36,8 @@ I have split the original data to train/test folders with following distrubtuion
 | Category    | Train | Test |
 | ----------  | ----- | ---- |
 | 0: Normal   | 8751  | 100  |
-| 1: Pneumonia | 5936  | 100  |
-| 2: COVID-19 | 92    | 10   |
+| 1: Pneumonia | 5945  | 100  |
+| 2: COVID-19 | 229    | 31   |
 
 ### Pretrained Networks for COVID-19 Detection:
 The core idea behind the Pretrained Networks and Transfer Learning can be studied in detail at my another GitHubRepository at [Here](https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks). I have used the following Pretrained Networks for COVID-19 Detection. Each Pretrained Network is also described with its train/test History and a Confusion-Matrix for better visualization of the Generalization of the Trained Network.
