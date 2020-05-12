@@ -116,19 +116,39 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
 ### Pretrained Networks for COVID-19 Detection for Dataset 02:
 
 #### MobileNet-V2:
-[Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/Implementations/dataset%2002/MobileNetV2-Transfer%20Learning-COVID19-dataset%2002%20(1).ipynb)
+[Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/Implementations/dataset%2002/MobileNetV2-Transfer%20Learning-COVID19-dataset%2002.ipynb)
 
 
 ##### Statistical Results:
 
 |![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/dataset%2001/Accuracy/VGG16-Accuracy-Graph.png "Accuracy") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/dataset%2001/Loss/VGG16-loss-Graph.png "Loss") |
 |:---:|:---:|
-| Pretrained-VGG16 Accuracy-Graph | Pretrained-VGG16 Loss-Graph |
+| Pretrained-MobileNetV2 Accuracy-Graph | Pretrained-MobileNetV2 Loss-Graph |
 
 
 |![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2002/mobilenetv2-cm.png "Confusion Matrix") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2002/mobilenetv2-roc.png "ROC Curve") |
 |:---:|:---:|
 | Pretrained-MobileNetV2 Confusion Matrix | Pretrained-MobileNetV2 ROC |
+
+##### Visualization:
+<p align="center">
+    <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2002/mobilenetv2-visualization.png", width=55%, height=55%>
+</p>
+
+#### DenseNet-169:
+[Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/Implementations/dataset%2002/DenseNet169-Transfer%20Learning-COVID19-dataset%2002.ipynb)
+
+
+##### Statistical Results:
+
+|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/dataset%2001/Accuracy/VGG16-Accuracy-Graph.png "Accuracy") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/Train-Test%20History/dataset%2001/Loss/VGG16-loss-Graph.png "Loss") |
+|:---:|:---:|
+| Pretrained-DenseNet169 Accuracy-Graph | Pretrained-DenseNet169 Loss-Graph |
+
+
+|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2002/mobilenetv2-cm.png "Confusion Matrix") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2002/mobilenetv2-roc.png "ROC Curve") |
+|:---:|:---:|
+| Pretrained-DenseNet169 Confusion Matrix | Pretrained-DenseNet169 ROC |
 
 ##### Visualization:
 <p align="center">
