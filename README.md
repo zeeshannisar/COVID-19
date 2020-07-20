@@ -5,7 +5,7 @@ The Corona Virus Disease 2019 (COVID-19) pandemic continues to have an upsetting
   
   + [Datset Description](#dataset-description)
     + [Dataset 01-Chest XRays](#dataset-01-chest-xrays)
-    + [Dataset 02 - Chest XRays](#dataset-02-chest-xrays)
+    + [Dataset 02-Chest XRays](#dataset-02-chest-xrays)
     + [Dataset 03 - CT Scans](#dataset-03-ct-scans)
   
   + [Pretrained Networks for COVID-19 Detection and Visualization of Infectious Regions for Dataset 01 - Chest XRays](#pretrained-networks-for-covid-19-detection-for-dataset-01-chest-xrays)
@@ -42,7 +42,7 @@ I have split the original data to train/test folders with following distrubtuion
 | 2: Viral    | 1355  | 149  |
 | 3: COVID-19 | 66    | 10   |
 
-#### Dataset 02 - Chest XRays: 
+#### Dataset 02-Chest XRays: 
 [Dataset 02](https://drive.google.com/drive/folders/1NLjyns6qJcQE8zZ8OZ-xfNMatcLLnMJO?usp=sharing) is the second version introduced by the authors of the [[Paper]](https://arxiv.org/abs/2003.09871). One can follow the steps given [Here](https://github.com/lindawangg/COVID-Net/blob/master/docs/COVIDx.md) to generate this dataset. The NumpyFiles for this data can also be accessed at [Here](https://drive.google.com/drive/folders/1NLjyns6qJcQE8zZ8OZ-xfNMatcLLnMJO?usp=sharing). The distribution of these Numpy files are as followed.
 
 | Category    | Train | Test |
@@ -50,6 +50,8 @@ I have split the original data to train/test folders with following distrubtuion
 | 0: Normal   | 8751  | 100  |
 | 1: Pneumonia | 5945  | 100  |
 | 2: COVID-19 | 229    | 31   |
+
+#### Dataset 03-CT Scans: 
 
 ### Pretrained Networks for COVID-19 Detection for Dataset 01 - Chest XRays:
 The core idea behind the Pretrained Networks and Transfer Learning can be studied in detail at my another GitHubRepository at [Here](https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks). I have used the following Pretrained Networks for COVID-19 Detection. Each Pretrained Network is also described with its train/test History and a Confusion-Matrix for better visualization of the Generalization of the Trained Network.
