@@ -161,7 +161,7 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
     <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2002/densenet169-visualization.png", width=55%, height=55%>
 </p>
 
-### Pretrained Networks for COVID-19 Detection for Dataset 02-CT Scans:
+### Pretrained Networks for COVID-19 Detection for Dataset 03-CT Scans:
 [Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/Implementations/dataset%2003/COVID19%20Identification-DenseNet121.ipynb)
 
 ##### Statistical Results:
