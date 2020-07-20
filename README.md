@@ -161,8 +161,14 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
 </p>
 
 ### Pretrained Networks for COVID-19 Detection and Visualization of Infectious Regions for Dataset 03-CT Scans:
-##### Statistical Results:
+[Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/Implementations/dataset%2003/COVID19%20Identification-DenseNet121.ipynb)
 
-|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2002/denseNet169-cm.png "Confusion Matrix") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2002/denseNet169-roc.png "ROC Curve") |
+##### Statistical Results:
+|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2003/denseNet121-cm.png "Confusion Matrix") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2003/denseNet121-roc.png "ROC Curve") |
 |:---:|:---:|
-| Pretrained-DenseNet169 Confusion Matrix | Pretrained-DenseNet169 ROC |
+| Pretrained-DenseNet121 Confusion Matrix | Pretrained-DenseNet121 ROC |
+
+##### Visualization:
+<p align="center">
+    <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2003/densenet121-visualization.png", width=55%, height=55%>
+</p>
