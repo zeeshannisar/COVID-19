@@ -52,6 +52,7 @@ I have split the original data to train/test folders with following distrubtuion
 | 2: COVID-19 | 229    | 31   |
 
 #### Dataset 03-CT Scans: 
+[Dataset 03](https://drive.google.com/drive/folders/12I0dNw1UMaqRpVgDjhyD1G2Kdx6Hjje6?usp=sharing) is a generated version of three different datasets. Two of these datasets were origginally developed for segmentation tasks and can be found at [Here](http://medicalsegmentation.com/covid19/) and one is developed for identification/diagnosis task and can be found at [Here](https://www.kaggle.com/plameneduardo/sarscov2-ctscan-dataset). One can follow the simple steps at [Here](https://github.com/zeeshannisar/COVID-19/blob/master/datasets/Preprocessing%20Steps%20to%20Generate%20COVID%20Dataset.ipynb) to generate this dataset. 
 
 ### Pretrained Networks for COVID-19 Detection for Dataset 01-Chest XRays:
 The core idea behind the Pretrained Networks and Transfer Learning can be studied in detail at my another GitHubRepository at [Here](https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks). I have used the following Pretrained Networks for COVID-19 Detection. Each Pretrained Network is also described with its train/test History and a Confusion-Matrix for better visualization of the Generalization of the Trained Network.
@@ -160,7 +161,7 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
     <img src="https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2002/densenet169-visualization.png", width=55%, height=55%>
 </p>
 
-### Pretrained Networks for COVID-19 Detection and Visualization of Infectious Regions for Dataset 03-CT Scans:
+### Pretrained Networks for COVID-19 Detection for Dataset 02-CT Scans:
 [Code: Google Colab Notebook](https://github.com/zeeshannisar/COVID-19/blob/master/Implementations/dataset%2003/COVID19%20Identification-DenseNet121.ipynb)
 
 ##### Statistical Results:
