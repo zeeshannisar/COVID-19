@@ -18,7 +18,7 @@ The Corona Virus Disease 2019 (COVID-19) pandemic continues to have an upsetting
     + [MobileNet-V2](#mobilenet-v2)
     + [DenseNet-169](#densenet-169)
     
-    + [Pretrained Networks for COVID-19 Detection and Visualization of Infectious Regions for Dataset 03-CT Scans](#pretrained-networks-for-covid-19-detection-for-dataset-03-ct-scans)
+  + [Pretrained Networks for COVID-19 Detection and Visualization of Infectious Regions for Dataset 03-CT Scans](#pretrained-networks-for-covid-19-detection-for-dataset-03-ct-scans)
     
     
     
@@ -161,3 +161,8 @@ The core idea behind the Pretrained Networks and Transfer Learning can be studie
 </p>
 
 ### Pretrained Networks for COVID-19 Detection and Visualization of Infectious Regions for Dataset 03-CT Scans:
+##### Statistical Results:
+
+|![alt-text-1](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2002/denseNet169-cm.png "Confusion Matrix") | ![alt-text-2](https://github.com/zeeshannisar/COVID-19/blob/master/ReadMe%20Images/dataset%2002/denseNet169-roc.png "ROC Curve") |
+|:---:|:---:|
+| Pretrained-DenseNet169 Confusion Matrix | Pretrained-DenseNet169 ROC |
